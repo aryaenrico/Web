@@ -1,0 +1,257 @@
+body {
+  background-color: #ffff;
+  min-height: 2600px;
+}
+
+.header {
+  background-color: #11052C;
+  max-height: 80px;
+}
+
+.header .wadah {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .content {
+  max-height: 85px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-left: black;
+}
+
+.header .content .image img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.header .text {
+  margin-left: 10px;
+  padding-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  color: #C9CCD5;
+  font-size: 15px;
+}
+
+.keranjang {
+  margin-left: 1000px;
+  max-width: 40px;
+}
+
+.keranjang .btn-keranjang {
+  padding-top: 15px;
+}
+
+.keranjang .btn-keranjang img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ffd100 !important;
+}
+
+.navbar-light {
+  background-color: #ffff;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 500px;
+}
+
+.navbar-light .nav-item {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: black;
+}
+
+.btn-wa {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  background-color: #ffd100;
+  color: black;
+  font-size: 16px;
+}
+
+.btn-wa:hover {
+  background-color: #11052C;
+  color: #ffff;
+}
+
+header {
+  margin-top: 20px;
+  background-image: url(images/produk.jpg);
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 130px;
+}
+
+header h1 {
+  font-family: 'Besley', serif;
+  color: #ffff;
+  font-size: 90px;
+  font-weight: 700px;
+}
+
+header p {
+  font-family: 'Besley', serif;
+  color: #ffff;
+  font-size: 30px;
+}
+
+header .btn-explore {
+  background-color: #ffd100;
+  font-family: 'Besley', serif;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.section-description {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.section-footer .section-footer-content {
+  background-color: #11324D;
+  min-height: 500px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffff;
+}
+
+.section-footer .section-footer-content .content h3 {
+  padding-top: 20px;
+  color: #ffd100;
+  font-weight: 500px;
+}
+
+.section-footer .section-footer-content .content h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.section-footer .section-footer-content .content P {
+  font-weight: 700px;
+  font-size: 20px;
+}
+
+.section-footer .section-footer-content .card-feature {
+  margin-top: 10px;
+}
+
+.section-footer .section-footer-content .card-feature .content {
+  min-height: 200px;
+  background-color: #11052C;
+  color: white;
+  padding-top: 20px;
+}
+
+.section-footer .section-footer-content .card-feature .content p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500px;
+}
+
+.section-footer .section-footer-content .card-feature .content:hover {
+  background-color: #ffff;
+  color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    max-height: 300px;
+  }
+  .header .wadah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-height: 300px;
+  }
+  .header .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-height: 120px;
+  }
+  .header .mobile {
+    margin-top: -30px;
+  }
+  .header .nomor {
+    margin-top: -30px;
+  }
+  header {
+    padding-top: 50px;
+    background-size: cover;
+  }
+  header h1 {
+    font-family: 'Besley', serif;
+    color: #ffff;
+    font-size: 50px;
+    font-weight: 700px;
+  }
+  .section-produk {
+    margin-top: -80px;
+  }
+  .section-produk img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1502px) {
+  .header {
+    max-height: 400px;
+  }
+  .header .wadah {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-height: 400px;
+    min-width: 100%;
+  }
+  .header .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-height: 120px;
+  }
+}
+/*# sourceMappingURL=Main.css.map */

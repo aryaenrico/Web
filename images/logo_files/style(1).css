@@ -1,0 +1,14 @@
+/*
+Theme Name:     Industris Child
+Theme URI:      http://wp.oceanthemes.net/industris/
+Description:    Make your modifications to [Parent Theme] in this child theme.
+Author:         Oceanthemes
+Author URI:     http://oceanthemes.net/
+Version:        1.0
+Template:       industris
+*/
+
+@import url("../industris/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
